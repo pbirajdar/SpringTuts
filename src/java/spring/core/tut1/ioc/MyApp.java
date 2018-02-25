@@ -20,10 +20,11 @@ public class MyApp {
         
         Coach cricketCoach = context.getBean("cricketCoach",Coach.class);
         Coach footballCoach = context.getBean("footballCoach",Coach.class);
+        Coach hockeyCoach = context.getBean("hockeyCoach",Coach.class);
         
         System.out.println("Cricket Coach: "+cricketCoach.getMyTaskFromCoach());
         System.out.println("Football Coach: "+footballCoach.getMyTaskFromCoach());
-        
+        System.out.println("Hockey Coach: "+hockeyCoach.getMyTaskFromCoach());
         
     }
 }
