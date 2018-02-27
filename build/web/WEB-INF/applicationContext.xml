@@ -37,4 +37,17 @@
         <property name="teamName" value="${foo.teamName}" />
     </bean>
     
+    <!--Tutorial 2-->
+    <bean id="cricketCoachScope"
+            class="spring.core.tut3.beanscope.CricketCoach"
+            scope="singleton"
+            init-method="doInitProcess"
+            destroy-method="doDestroyProcess"><!-- By Default beans scope is singleton-->
+    </bean>
+    <bean id="baseballCoachScope"
+            class="spring.core.tut3.beanscope.BaseballCoach"
+            scope="prototype"><!-- We explicitly define the scope as prototype -->
+    </bean>
+    
+    
 </beans>
