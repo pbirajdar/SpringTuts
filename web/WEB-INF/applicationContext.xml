@@ -37,7 +37,7 @@
         <property name="teamName" value="${foo.teamName}" />
     </bean>
     
-    <!--Tutorial 2-->
+    <!--Tutorial 3-->
     <bean id="cricketCoachScope"
             class="spring.core.tut3.beanscope.CricketCoach"
             scope="singleton"
