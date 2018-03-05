@@ -36,5 +36,7 @@ public class MyApp {
         Coach hockeyCoach = context.getBean("hockeyCoachAntFieldInj", Coach.class);
         System.out.println(hockeyCoach.getDailyFortune());
         System.out.println(hockeyCoach.getDailyTasks());
+        
+        context.close();
     }
 }
