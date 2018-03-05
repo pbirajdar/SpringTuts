@@ -37,7 +37,7 @@
         <property name="teamName" value="${foo.teamName}" />
     </bean>
     
-    <!--Tutorial 2-->
+    <!--Tutorial 3-->
     <bean id="cricketCoachScope"
             class="spring.core.tut3.beanscope.CricketCoach"
             scope="singleton"
@@ -49,5 +49,8 @@
             scope="prototype"><!-- We explicitly define the scope as prototype -->
     </bean>
     
+    <!--Tutorial 4-->
+    <context:component-scan base-package="spring.core.tut4.annotations" ></context:component-scan>
+    <context:component-scan base-package="spring.core.tut5.ant.dependencies" ></context:component-scan>
     
 </beans>

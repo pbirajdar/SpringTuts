@@ -3,10 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/D:/CodeXs/SpringDemos/SpringCore/src/java/spring/core/tut2/dependcy/MyApp.java</file>
             <file>file:/D:/CodeXs/SpringDemos/SpringCore/web/WEB-INF/applicationContext.xml</file>
-            <file>file:/D:/CodeXs/SpringDemos/SpringCore/src/java/spring/core/tut1/ioc/CricketCoach.java</file>
-            <file>file:/D:/CodeXs/SpringDemos/SpringCore/src/java/spring/core/tut1/ioc/FootballCoach.java</file>
-            <file>file:/D:/CodeXs/SpringDemos/SpringCore/src/java/spring/core/tut1/ioc/MyApp.java</file>
+            <file>file:/D:/CodeXs/SpringDemos/SpringCore/src/java/spring/core/tut3/beanscope/BaseballCoach.java</file>
+            <file>file:/D:/CodeXs/SpringDemos/SpringCore/src/java/spring/core/tut3/beanscope/Coach.java</file>
+            <file>file:/D:/CodeXs/SpringDemos/SpringCore/src/java/spring/core/tut3/beanscope/BeanScopeApp.java</file>
+            <file>file:/D:/CodeXs/SpringDemos/SpringCore/src/java/spring/core/tut3/beanscope/CricketCoach.java</file>
         </group>
     </open-files>
 </project-private>

@@ -242,4 +242,29 @@
 			<xsd:attribute name="resource-pattern" type="xsd:string">
 				<xsd:annotation>
 					<xsd:documentation><![CDATA[
-	Controls the class files eligible for
+	Controls the class files eligible for component detection. Defaults to "**/*.class", the recommended value.
+	Consider use of the include-filter and exclude-filter elements for a more fine-grained approach.
+					]]></xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+			<xsd:attribute name="use-default-filters" type="xsd:boolean"
+				default="true">
+				<xsd:annotation>
+					<xsd:documentation><![CDATA[
+	Indicates whether automatic detection of classes annotated with @Component, @Repository, @Service,
+	or @Controller should be enabled. Default is "true".
+					]]></xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+			<xsd:attribute name="annotation-config" type="xsd:boolean"
+				default="true">
+				<xsd:annotation>
+					<xsd:documentation><![CDATA[
+	Indicates whether the implicit annotation post-processors should be enabled. Default is "true".
+					]]></xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+			<xsd:attribute name="name-generator" type="xsd:string">
+				<xsd:annotation>
+					<xsd:documentation><![CDATA[
+	

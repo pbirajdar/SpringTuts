@@ -49,5 +49,8 @@
             scope="prototype"><!-- We explicitly define the scope as prototype -->
     </bean>
     
+    <!--Tutorial 4-->
+    <context:component-scan base-package="spring.core.tut4.annotations" ></context:component-scan>
+    <context:component-scan base-package="spring.core.tut5.ant.dependencies" ></context:component-scan>
     
 </beans>
